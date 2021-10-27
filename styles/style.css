@@ -14,16 +14,22 @@ body {
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-position: center;
-  font-family: 'Helvetica';
+  background-repeat: no-repeat;
+  font-family: 'Handwritten';
 }
 
 h1 {
-  margin-bottom: 20px;
-  font-size: 28px;
+  margin-bottom: 10px;
+  font-size: 50px;
 }
 
 h3 {
   margin-top: 30px;
+  font-size: 36px;
+}
+
+h1, h3 {
+  font-weight: bold;
 }
 
 #container {
@@ -39,7 +45,6 @@ h3 {
 }
 
 p {
-  font-family: 'Handwritten';
   font-size: 32px;
   margin-bottom: 20px;
 }
